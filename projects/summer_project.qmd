@@ -3,4 +3,4 @@ title: "Summer Research Project"
 ---
 
 At the end of the Foundation Year I carry out a pilot project for the PhD proper. 
-Mine is about ...
+I explored the application of responsible AI principles in a healthcare context using the MIMIC-IV dataset. The work involved a step-by-step evaluation process, beginning with dataset to identify potential biases in the dataset itself, followed by the development of various machine learning models for clinical prediction tasks. I assessed model performance and prediction outputs across different patient subgroups (e.g., Insurance, gender, ethnicity) to examine fairness, transparency, and potential disparities. This included applying different evaluation methods to detect bias and measure how consistently the models performed across groups. The goal was to understand and improve the alignment of AI systems with ethical and equitable standards in real-world clinical settings.
