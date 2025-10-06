@@ -1,11 +1,10 @@
 ---
-title: "A Methodology for Practice-Oriented AI"
+title: "Application of Artificial Intelligence Algorithm in Image Processing for Cattle Disease Diagnosis"
 bibliography: publications.bib
 nocite: | 
-  @methodology
+  @cattle
 ---
 
-This conference paper presents a methodology for developing practice-oriented AI applications...
 
 {{< var todo >}}
 
