@@ -6,8 +6,17 @@ Practice-oriented AI is about bridging the gap between between complex problem d
 
 Within the broad area of practice-oriented AI, my current research interests focus on ...
 
-### My current research within the CDT
-I am exploring how responsible AI principles can be evaluated in real-world clinical settings. Specifically, I am evaluating machine learning models trained on the MIMIC-IV dataset for the task of in-hospital mortality prediction. The focus is on assessing how these models perform across different patient subgroups (e.g., insurance, gender, ethnicity), and whether they uphold key principles of fairness, transparency, and accountability. This involves analysing the data, model behaviour, and prediction outputs to identify potential biases or disparities and understand their impact on clinical decision-making.
+### Research Interest
+My research focuses on the design of responsible and trustworthy AI systems in healthcare, with a particular interest in how cognitive biases affect both human and machine decision-making in healthcare. Diagnostic errors in clinical settings are often driven by these cognitive biases, and AI systems trained on human-generated data may risk inheriting or amplifying such biases if not carefully designed. My research aims to explore the following key questions:
+
+1. How do different types of cognitive bias manifest in clinical decision-making?
+2. What techniques can help identify when clinical data or decisions are influenced by bias?
+3. How can we design AI systems that reduce the risk of cognitive bias while remaining accurate, interpretable, and trustworthy?
+
+To address these questions, I’m evaluating machine learning models on real-world healthcare datasets (e.g., MIMIC-IV) using various fairness and interpretability techniques. The goal is to improve how we design and assess AI tools in high-stakes settings, ensuring they support equitable, trustworthy, and human-aligned decision-making. 
+
+
+<!-- ### My current research within the CDT
 
 
 ### Relevant research I have done previously
@@ -16,5 +25,5 @@ I am exploring how responsible AI principles can be evaluated in real-world clin
 
 ### Research by others I'm building on
 
-..............
+.............. -->
 
