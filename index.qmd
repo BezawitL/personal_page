@@ -1,5 +1,5 @@
 ---
-title: "My research in Practice-Oriented Artificial Intelligence"
+title: "Hi! I’m Beza 👋🏼"
 author: "Bezawit"
 format:
   html:
@@ -14,27 +14,18 @@ This is my professional website where I describe my main research area, ongoing 
 
 
 ### About Me
-I have a strong interest in applied, human-centered AI. Currently, I’m pursuing a practice-oriented PhD focused on developing responsible AI technologies for healthcare.
+I’m currently pursuing a practice-oriented PhD in Artificial Intelligence, with a focus on the intersection of AI and human decision-making in healthcare. I’m particularly interested in how cognitive processes, such as reasoning error and bias emerge in clinical environments, and how they can be detected and mitigated within AI systems.
 
-Prior to this, I worked as a lecturer and assistant lecturer at Dilla University in Ethiopia, where I taught courses such as Artificial Intelligence, Data Mining, and Programming. I also coordinated initiatives at the university’s STEM Centre, working to promote science and technology education among students.
+My research explores how we can design AI tools that are not only technically robust but also aligned with how humans think and make decisions, especially under uncertainty. This includes understanding the roles of intuitive (System 1) and analytical (System 2) thinking, understading where reasoning error could happen and how AI systems can be developed to support those reasonign error. I’m also examining how cognitive biases—both human and algorithmic—can influence decision outcomes, and how we might mitigate these risks through better system design. My work is grounded in the belief that responsible AI in healthcare must not only perform well technically, but also integrate seamlessly into the cognitive and ethical frameworks of the people who use it.
 
-My work combines technical development with real-world application, with a focus on designing ethical, transparent, and clinically relevant AI systems that support rather than replace, human decision-making in complex environments. 
+Before beginning my PhD, I worked as a lecturer and assistant lecturer at Dilla University in Ethiopia, where I taught courses such as Artificial Intelligence, Data Mining, and Programming. I also led initiatives at the university’s STEM Centre, working to promote science and technology education among students.
 
 ### Academic Background
 I hold a Master’s degree in Computer Science with a specialization in Data and Web Engineering, as well as a Bachelor’s degree in Computer Science. Throughout my academic and professional journey, I’ve developed a strong foundation in artificial intelligence, data analysis, and software development.
 
-During my time at Dilla University, I gained valuable experience in teaching and mentoring students, which helped shape my interest in the intersection of technology, education, and real-world impact. These experiences continue to inform my current research and approach to responsible AI. 
+During my time at Dilla University, I gained valuable experience in teaching and mentoring students, which helped shape my interest in the intersection of technology, education, and real-world impact. These experiences continue to inform my current research and approach to responsible AI applications. 
 
-### Research Interest
-My research focuses on the design of responsible and trustworthy AI systems for clinical decision support, with a particular interest in how cognitive biases affect both human and machine decision-making in healthcare. 
 
-Diagnostic errors in clinical settings are often driven by these cognitive biases, and AI systems trained on human-generated data may risk inheriting or amplifying such biases if not carefully designed. My research aims to explore the following key questions:
-
-1. How do different types of cognitive bias manifest in clinical decision-making?
-2. What techniques can help identify when clinical data or decisions are influenced by bias?
-3. How can we design AI systems that reduce the risk of cognitive bias while remaining accurate, interpretable, and trustworthy?
-
-To address these questions, I’m evaluating machine learning models on real-world healthcare datasets (e.g., MIMIC-IV) using various fairness and interpretability techniques. The goal is to improve how we design and assess AI tools in high-stakes settings, ensuring they support equitable, trustworthy, and human-aligned decision-making. 
 ---
 
 This website is authored in [Quarto](https://quarto.org/docs/websites).
