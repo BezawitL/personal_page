@@ -1,1 +1,15 @@
 /* css styles */
+/* Set background color for the title banner */
+/*.quarto-title-banner {
+  background-color: #006661;  /* Choose any hex code or color name */
+ /* color:white;               /* Ensure text is readable */
+  /* padding: 4rem 2rem;         /* Optional: adjust padding */
+  /*text-align: center;
+} 
+
+/* Optional: Style the title and author text */
+/*.quarto-title-banner .title,
+.quarto-title-banner .subtitle,
+.quarto-title-banner .author {
+  color: white;  /* Makes text stand out */ 
+/*} 

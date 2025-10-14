@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "My Personal Webpage",
+    "title": "My research in Practice-Oriented Artificial Intelligence",
     "section": "",
-    "text": "Welcome to my personal page! I thrive on solving complex problems and love turning innovative ideas into reality. Whether I’m coding, designing, or exploring new fields, I bring dedication and curiosity to everything I do. Outside of work, I enjoy hiking, reading science fiction, and experimenting with new recipes. Here, you’ll find insights into my projects, interests, and the journey I’m on to make a positive impact in the world. Thank you for visiting, and I hope you find something that inspires you!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "My name is Bezawit and I am a PhD student at the UKRI AI Centre for Doctoral Training in Practice-Oriented Artificial Intelligence. This is my professional website where I describe my main research area, ongoing projects, publications, and other AI-related activities.\n\nAbout Me\nI have a strong interest in applied, human-centered AI. Currently, I’m pursuing a practice-oriented PhD focused on developing responsible AI technologies for healthcare.\nPrior to this, I worked as a lecturer and assistant lecturer at Dilla University in Ethiopia, where I taught courses such as Artificial Intelligence, Data Mining, and Programming. I also coordinated initiatives at the university’s STEM Centre, working to promote science and technology education among students.\nMy work combines technical development with real-world application, with a focus on designing ethical, transparent, and clinically relevant AI systems that support rather than replace, human decision-making in complex environments.\n\n\nAcademic Background\nI hold a Master’s degree in Computer Science with a specialization in Data and Web Engineering, as well as a Bachelor’s degree in Computer Science. Throughout my academic and professional journey, I’ve developed a strong foundation in artificial intelligence, data analysis, and software development.\nDuring my time at Dilla University, I gained valuable experience in teaching and mentoring students, which helped shape my interest in the intersection of technology, education, and real-world impact. These experiences continue to inform my current research and approach to responsible AI.\n\n\nResearch Interest\nMy research focuses on the design of responsible and trustworthy AI systems for clinical decision support, with a particular interest in how cognitive biases affect both human and machine decision-making in healthcare.\nDiagnostic errors in clinical settings are often driven by these cognitive biases, and AI systems trained on human-generated data may risk inheriting or amplifying such biases if not carefully designed. My research aims to explore the following key questions:\n\nHow do different types of cognitive bias manifest in clinical decision-making?\nWhat techniques can help identify when clinical data or decisions are influenced by bias?\nHow can we design AI systems that reduce the risk of cognitive bias while remaining accurate, interpretable, and trustworthy?\n\nTo address these questions, I’m evaluating machine learning models on real-world healthcare datasets (e.g., MIMIC-IV) using various fairness and interpretability techniques. The goal is to improve how we design and assess AI tools in high-stakes settings, ensuring they support equitable, trustworthy, and human-aligned decision-making.\n\nThis website is authored in Quarto."
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Another blogpost example\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBlogpost Example\n\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Here I collect my blog posts about current issues in AI research.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother blogpost example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlogpost Example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post.html",
@@ -40,5 +40,110 @@
     "title": "Papers",
     "section": "",
     "text": "2024\n\nResearcher (2024). A very Cool AI Paper. arXiv 2402.10951."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "My research in Practice-Oriented Artificial Intelligence",
+    "section": "About Me",
+    "text": "About Me\nMy background is in computer science, both as a student and as an educator. Before starting my PhD, I worked as a lecturer and assistant lecturer at Dilla University in Ethiopia, where I taught undergraduate courses such as Artificial Intelligence, Data Mining, and Programming. In addition to teaching, I served as a coordinator at the university’s STEM Centre, where I helped lead initiatives to promote science, technology, engineering, and mathematics education. These experiences shaped my interest in applied, human-centered AI, particularly in how AI systems can support real-world decision-making in complex domains like healthcare."
+  },
+  {
+    "objectID": "index.html#academic-background",
+    "href": "index.html#academic-background",
+    "title": "My research in Practice-Oriented Artificial Intelligence",
+    "section": "Academic Background",
+    "text": "Academic Background\nI hold a Master’s degree in Computer Science with a specialization in Data and Web Engineering. I also earned my Bachelor’s degree in Computer Science. These academic foundations have equipped me with strong technical and analytical skills, particularly in the areas of intelligent systems, software development, and data-driven technologies."
+  },
+  {
+    "objectID": "index.html#research-interest",
+    "href": "index.html#research-interest",
+    "title": "My research in Practice-Oriented Artificial Intelligence",
+    "section": "Research Interest",
+    "text": "Research Interest\nMy research focuses on the design of responsible and trustworthy AI systems for clinical decision support, with a particular interest in how cognitive biases affect both human and machine decision-making in healthcare. Diagnostic errors remain a significant problem in clinical settings, often driven by cognitive biases, mental shortcuts that can lead to incorrect or delayed diagnoses. While AI systems are increasingly being used to support clinicians, they are often trained on historical data generated by human decisions. As a result, these systems risk inheriting and even amplifying the same reasoning error they aim to address.\nMy goal is to explore how we can detect and mitigate cognitive bias in AI systems, ensuring they align more closely with clinical reasoning and support better decision-making. My research will be guided by the following key questions: 1. How do different types of cognitive bias manifest in clinical decision-making? 2. What techniques can help identify when clinical data or decisions are influenced by bias? 3. How can we design AI systems that reduce the risk of cognitive bias while remaining accurate, interpretable, and trustworthy?\nTo address these questions, I will investigate methods for identifying bias in real-world healthcare data and models, assess existing tools for fairness and transparency, and propose design strategies that account for cognitive bias. The ultimate aim is to support the development of AI systems that are not only technically robust but also ethically and clinically aligned, helping to improve patient outcomes while reducing unintended risks.\n\nThis website is authored in Quarto."
+  },
+  {
+    "objectID": "events/NeurIPS24.html",
+    "href": "events/NeurIPS24.html",
+    "title": "2024 Neural Information Processing Conference",
+    "section": "",
+    "text": "I was fortunate to present my work at a NeurIPS’24 workshop.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "AI-Related Projects",
+    "section": "",
+    "text": "Click on one of the headers below to find out about AI-related projects I am or have been involved in.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummer Research Project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPractice Project I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/summer_project.html",
+    "href": "projects/summer_project.html",
+    "title": "Summer Research Project",
+    "section": "",
+    "text": "At the end of the Foundation Year I carry out a pilot project for the PhD proper. I explored the application of responsible AI principles in a healthcare context using the MIMIC-IV dataset. The work involved a step-by-step evaluation process, beginning with dataset to identify potential biases in the dataset itself, followed by the development of various machine learning models for clinical prediction tasks. I assessed model performance and prediction outputs across different patient subgroups (e.g., Insurance, gender, ethnicity) to examine fairness, transparency, and potential disparities. This included applying different evaluation methods to detect bias and measure how consistently the models performed across groups. The goal was to understand and improve the alignment of AI systems with ethical and equitable standards in real-world clinical settings."
+  },
+  {
+    "objectID": "publications/paper2.html",
+    "href": "publications/paper2.html",
+    "title": "A Case Study in Practice-Oriented Artificial Intelligence",
+    "section": "",
+    "text": "This journal paper presents a case study in practice-oriented AI…\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\n\nOther, A. N., and S. U. Pervisor. 2024. “A Case Study in Practice-Oriented Artificial Intelligence.” Artificial Intelligence: Theory and Practice 12 (3): 245–60. https://doi.org/10.1234/aitp.2024.0312."
+  },
+  {
+    "objectID": "blogposts/another_post.html",
+    "href": "blogposts/another_post.html",
+    "title": "Blogpost Example",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Practice-oriented AI is about bridging the gap between between complex problem domains such as those found in science and research, and AI algorithms and techniques that could be used to solve problems in those domains.\nWithin the broad area of practice-oriented AI, my current research interests focus on …\n\nMy current research within the CDT\nI am exploring how responsible AI principles can be evaluated in real-world clinical settings. Specifically, I am evaluating machine learning models trained on the MIMIC-IV dataset for the task of in-hospital mortality prediction. The focus is on assessing how these models perform across different patient subgroups (e.g., insurance, gender, ethnicity), and whether they uphold key principles of fairness, transparency, and accountability. This involves analysing the data, model behaviour, and prediction outputs to identify potential biases or disparities and understand their impact on clinical decision-making.\n\n\nRelevant research I have done previously\n…..\n\n\nResearch by others I’m building on\n………….."
+  },
+  {
+    "objectID": "blogposts/post.html",
+    "href": "blogposts/post.html",
+    "title": "Another blogpost example",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "AI researchers attend many academic events, such as conferences, workshops, summer schools etc., to advertise their work and learn about the latest developments. Here I keep track of the relevant events I have attended or helped organise.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Neural Information Processing Conference\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBIAS 2025 Summer School\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/paper.html",
+    "href": "publications/paper.html",
+    "title": "Application of Artificial Intelligence Algorithm in Image Processing for Cattle Disease Diagnosis",
+    "section": "",
+    "text": "Result of AI algorithm in cattle disease diagnosis\n\n\nThis project explores the use of AI and image processing techniques to support early diagnosis of cattle diseases. Livestock is a critical socioeconomic asset in developing countries such as Ethiopia, where the economy is significantly based on agriculture and animal husbandry. However, there is an enormous loss of livestock population, which undermines efforts to achieve food security and poverty reduction in the country. The primary reason for this challenge is the lack of a reliable and prompt diagnosis system that identifies livestock diseases in a timely manner. To address some of these issues, the integration of an expert system with deep learning image processing was proposed in this study.\n\n\nLake, Bezawit, Fekade Getahun, and Fitsum T Teshome. 2022. “Application of Artificial Intelligence Algorithm in Image Processing for Cattle Disease Diagnosis.” Journal of Intelligent Learning Systems and Applications 14 (04): 71–88."
+  },
+  {
+    "objectID": "projects/research_project.html",
+    "href": "projects/research_project.html",
+    "title": "Another Project",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "My Publications",
+    "section": "",
+    "text": "I have (co-)authored the following workshop, conference and journal papers. Click through to find out more and see a full citation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Case Study in Practice-Oriented Artificial Intelligence\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApplication of Artificial Intelligence Algorithm in Image Processing for Cattle Disease Diagnosis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events/BIAS25.html",
+    "href": "events/BIAS25.html",
+    "title": "BIAS 2025 Summer School",
+    "section": "",
+    "text": "I was a member of the organising committee for the annual Bristol Interactive AI Summer School.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
   }
 ]

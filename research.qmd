@@ -7,14 +7,14 @@ Practice-oriented AI is about bridging the gap between between complex problem d
 Within the broad area of practice-oriented AI, my current research interests focus on ...
 
 ### My current research within the CDT
+I am exploring how responsible AI principles can be evaluated in real-world clinical settings. Specifically, I am evaluating machine learning models trained on the MIMIC-IV dataset for the task of in-hospital mortality prediction. The focus is on assessing how these models perform across different patient subgroups (e.g., insurance, gender, ethnicity), and whether they uphold key principles of fairness, transparency, and accountability. This involves analysing the data, model behaviour, and prediction outputs to identify potential biases or disparities and understand their impact on clinical decision-making.
 
-{{< var todo >}}
 
 ### Relevant research I have done previously
 
-{{< var todo >}}
+.....
 
 ### Research by others I'm building on
 
-{{< var todo >}}
+..............
 

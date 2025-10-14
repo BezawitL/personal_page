@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "A.N. Other's academic homepage (edit in _quarto.yml)"
+  title: "Bezawit academic homepage"
   navbar:
     left:
       - href: index.qmd
@@ -29,7 +29,8 @@ website:
       - icon: envelope
         text: "Email"
         url: mailto:dz24190@bristol.ac.uk
-      - text: "Medium Blog"
+      - icon: medium
+        text: "Medium Blog"
         url: https://medium.com/@bezawitl
       - text: Pro-AI CDT
         url: https://www.bristol.ac.uk/cdt/practice-oriented-ai/

@@ -5,8 +5,11 @@ nocite: |
   @cattle
 ---
 
+![Result](/images/cattle_result.png )  
 
-{{< var todo >}}
+This project explores the use of AI and image processing techniques to support early diagnosis of cattle diseases. Livestock is a critical socioeconomic asset in developing countries such as Ethiopia, where the economy is significantly based on agriculture and animal husbandry. However, there is an enormous loss of livestock population, which undermines efforts to achieve food security and poverty reduction in the country. The primary reason for this challenge is the lack of a reliable and prompt diagnosis system that identifies livestock diseases in a timely manner. To address some of these issues, the integration of an expert system with deep learning image processing was proposed in this study.
+
+
 
 ::: {#refs}
 :::
