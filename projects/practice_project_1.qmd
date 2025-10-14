@@ -1,5 +1,7 @@
 ---
-title: "Practice Project I " 
+title: "The Effect of Varying Network Size During MARL Training on Agent Performance" 
 ---
 
+
+My first practice project was on Mutli-Agent Reinforcement Learning. In this group project, we explored how changes in network size like adding or removing devices affect the performance of AI agents trained using Multi-Agent Reinforcement Learning (MARL). As modern networks (especially those involving IoT and mobile devices) grow and shift over time, they pose challenges for training stable and scalable AI systems. Using a simulated cyber defence environment, we examined how these dynamic changes impact the agents' learning, particularly when the action space becomes more complex. Our findings highlighted key scalability issues and the need for more adaptive training approaches to help AI agents perform reliably in real-world, ever-changing networks. 
 

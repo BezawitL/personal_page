@@ -1,0 +1,9 @@
+---
+title: "Automating Customer IT Support with Agentic AI and LLMs" 
+---
+
+In this group project, we developed an AI-based system to help automate common IT support tasks, such as ticket triage, issue classification, and response generation. With enterprise IT teams facing growing workloads due to expanding infrastructure and remote work, our goal was to explore how agentic AI—powered by Large Language Models (LLMs)—could take on some of the routine support duties.
+
+We built a multi-agent framework using tools like LangGraph and retrieval-augmented generation (RAG) to simulate real-world IT support environments. Our system coordinated agents to handle tasks like diagnosing problems, classifying issues, and generating helpful responses. We also compared the performance of fine-tuned LLMs with traditional models like XGBoost.
+
+The results showed that while LLMs performed well in structured tasks, challenges remained—especially around consistency and the limits of synthetic training data. Overall, the project highlighted the potential of AI-driven IT support systems when paired with human oversight, balancing automation with reliability.
