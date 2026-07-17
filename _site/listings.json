@@ -1,7 +1,16 @@
 [
   {
     "listing": "/blog.html",
-    "items": []
+    "items": [
+      "/blogposts/AAAI-26.html",
+      "/blogposts/llm_evaluation.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/paper.html"
+    ]
   },
   {
     "listing": "/projects.html",
@@ -15,12 +24,6 @@
     "listing": "/events.html",
     "items": [
       "/events/BIAS25.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/paper.html"
     ]
   }
 ]

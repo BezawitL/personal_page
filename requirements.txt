@@ -1,1 +1,3 @@
 numpy
+
+quarto publish gh-pages
