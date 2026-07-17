@@ -24,6 +24,8 @@ website:
     collapse-level: 2
     include: sidebar_info.html
     contents:
+      - icon: geo-alt
+        text: Bristol, UK
       - icon: github
         text: Github
         url: https://github.com/bezawitlake
@@ -36,6 +38,9 @@ website:
       - icon: medium
         text: "Medium Blog"
         url: https://medium.com/@bezawitl
+      - icon: person-badge
+        text: ORCID
+        url: https://orcid.org/0000-0002-0407-4459  
 format:
   html:
     theme: cosmo

@@ -4,17 +4,42 @@ title: "Research"
 
 Practice-oriented AI is about bridging the gap between between complex problem domains such as those found in science and research, and AI algorithms and techniques that could be used to solve problems in those domains. 
 
-Within the broad area of practice-oriented AI, my current research interests focus on ...
+Within the broad area of practice-oriented AI, my current research interests focus on:
 
 ### Research Interest
-My research focuses on the design of responsible and trustworthy AI systems in healthcare, with a particular interest in how cognitive biases affect both human and machine decision-making in healthcare. Diagnostic errors in clinical settings are often driven by these cognitive biases, and AI systems trained on human-generated data may risk inheriting or amplifying such biases if not carefully designed. My research aims to explore the following key questions:
+My research lies at the intersection of Artificial Intelligence, cognitive science, behavioural economics, and decision science. I investigate how human reasoning shapes the behaviour of AI systems and how AI can be designed to support better decision-making in high-stakes environments, particularly healthcare.
 
-1. How do different types of cognitive bias manifest in clinical decision-making?
-2. What techniques can help identify when clinical data or decisions are influenced by bias?
-3. How can we design AI systems that reduce the risk of cognitive bias while remaining accurate, interpretable, and trustworthy?
+A central premise of my research is that AI systems learn from data generated through human decisions. Because human decision-making often relies on heuristics, efficient mental shortcuts that simplify complex problems, AI models can inherit and reinforce the cognitive biases embedded in those decisions. Understanding how these biases emerge, propagate through data, and influence AI behaviour is fundamental to developing trustworthy and reliable intelligent systems.
 
-To address these questions, I’m evaluating machine learning models on real-world healthcare datasets (e.g., MIMIC-IV) using various fairness and interpretability techniques. The goal is to improve how we design and assess AI tools in high-stakes settings, ensuring they support equitable, trustworthy, and human-aligned decision-making. 
+My research seeks to understand not only how AI inherits human reasoning patterns but also how AI can actively support human decision-making. By combining insights from artificial intelligence, cognitive science, and behavioural economics, I aim to develop AI systems that are both technically robust and cognitively informed.
 
+### Research Themes
+
+My current research is organised around four interconnected themes.
+
+#### Characterising Human Reasoning
+
+I investigate how heuristic reasoning and cognitive biases influence human decision-making, particularly in clinical environments. This work aims to understand how these reasoning patterns become reflected in the data used to develop AI systems.
+
+#### Detecting and Quantifying Cognitive Biases
+
+I develop computational approaches to identify, characterise, and quantify heuristic-driven behaviours in both human decision-making and AI models trained on human-generated data. Making these patterns observable is an important step towards understanding their impact on AI systems.
+
+#### Bias-Aware and Trustworthy AI
+
+I study methods for developing AI systems that recognise and mitigate inherited cognitive biases while maintaining predictive performance, interpretability, fairness, and robustness. My goal is to ensure that AI systems learn from human expertise without simply reproducing undesirable reasoning patterns.
+
+#### Human-Centred Decision Support
+
+Beyond improving AI models themselves, I explore intelligent decision-support systems that work alongside human experts. I am particularly interested in AI systems that can recognise when clinicians may be susceptible to heuristic-driven reasoning and provide timely, context-aware recommendations that encourage more reflective and evidence-informed decision-making.
+
+### Research Approach
+
+My work combines statistical modelling, latent variable modelling, explainable AI, machine learning, and behavioural analysis to study the relationship between human cognition and artificial intelligence. Rather than viewing human decision-making and AI as separate challenges, I investigate how they interact throughout the AI lifecycle, from data generation and model development to deployment and human-AI collaboration.
+
+### Long-Term Vision
+
+My long-term goal is to develop AI systems that are not only accurate and effective but also transparent, trustworthy, and aligned with the way people think and make decisions. I believe that the next generation of AI should do more than automate decisions, it should understand, complement, and support human reasoning, enabling safer and more informed decision-making in healthcare and other high-stakes domains.
 
 <!-- ### My current research within the CDT
 

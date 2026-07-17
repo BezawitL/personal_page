@@ -14,17 +14,29 @@ This is my professional website where I describe my main research area, ongoing 
 
 
 ### About Me
-I’m currently pursuing a practice-oriented PhD in Artificial Intelligence, with a focus on the intersection of AI and human decision-making in healthcare. I’m particularly interested in how cognitive processes, such as reasoning error and bias emerge in clinical environments, and how they can be detected and mitigated within AI systems.
+I am a practice-oriented PhD researcher in Artificial Intelligence, with research interests at the intersection of AI, cognitive science, behavioural economics, and human decision-making. My work focuses on developing trustworthy, human-centred AI systems that better understand how people reason and make decisions, particularly in high-stakes domains such as healthcare.
 
-My research explores how we can design AI tools that are not only technically robust but also aligned with how humans think and make decisions, especially under uncertainty. This includes understanding the roles of intuitive (System 1) and analytical (System 2) thinking, understading where reasoning error could happen and how AI systems can be developed to support those reasonign error. I’m also examining how cognitive biases—both human and algorithmic—can influence decision outcomes, and how we might mitigate these risks through better system design. My work is grounded in the belief that responsible AI in healthcare must not only perform well technically, but also integrate seamlessly into the cognitive and ethical frameworks of the people who use it.
+I am fascinated by the interaction between human cognition and artificial intelligence. My research explores how the ways people think and make decisions influence the behaviour of AI systems, and how insights from cognitive science can be used to design AI that is more transparent, reliable, and supportive of human decision-making. I aim to contribute to AI systems that work collaboratively with people rather than simply automating decisions.
 
-Before beginning my PhD, I worked as a lecturer and assistant lecturer at Dilla University in Ethiopia, where I taught courses such as Artificial Intelligence, Data Mining, and Programming. I also led initiatives at the university’s STEM Centre, working to promote science and technology education among students.
+Beyond my current research, I am broadly interested in explainable AI, trustworthy AI, human-AI interaction, decision support systems, responsible AI, and the application of machine learning to real-world challenges.
 
-### Academic Background
-I hold a Master’s degree in Computer Science with a specialization in Data and Web Engineering, as well as a Bachelor’s degree in Computer Science. Throughout my academic and professional journey, I’ve developed a strong foundation in artificial intelligence, data analysis, and software development.
+### Background
 
-During my time at Dilla University, I gained valuable experience in teaching and mentoring students, which helped shape my interest in the intersection of technology, education, and real-world impact. These experiences continue to inform my current research and approach to responsible AI applications. 
+Before beginning my PhD, I worked as a Lecturer in the Department of Computer Science at Dilla University, Ethiopia, where I taught courses including Artificial Intelligence, Data Mining, and Programming. Alongside teaching, I supervised undergraduate students and contributed to STEM outreach initiatives that encouraged primary and secondary school students to engage with science, technology, engineering, and mathematics.
 
+I hold both Bachelor's and Master's degrees in Computer Science, with a specialisation in Data and Web Engineering. My academic journey has given me a strong foundation in artificial intelligence, machine learning, data analysis, and software development, while reinforcing my passion for interdisciplinary research that bridges computing, human behaviour, and real-world impact.
+
+Through my research, I hope to contribute to AI systems that are not only technically capable but also transparent, trustworthy, and designed to support better human decision-making.
+
+##### Research Interests
+- Trustworthy AI
+- Explainable AI (XAI)
+- Human-AI Interaction
+- Cognitive Science
+- Behavioural Economics
+- Decision Support Systems
+- Healthcare AI
+- Machine Learning
 
 ---
 

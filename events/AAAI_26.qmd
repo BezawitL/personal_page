@@ -1,0 +1,7 @@
+---
+title: "BIAS 2025 Summer School"
+---
+
+I was at AAAI-26 in Singapore. Presenting a Poster on Responsible-AI in Healthcare Workshop.  
+
+{{< var todo >}}

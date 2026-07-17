@@ -1,5 +1,20 @@
 ---
-title: "Summer Research Project" 
+title: "Responsible AI in Healthcare"
+
+image: ../images/summer_project.jpg
+
+description: >
+  Summer project: 
+  Evaluating fairness across the machine learning pipeline using the MIMIC-IV
+  clinical database to support trustworthy AI in healthcare.
 ---
 
-At the end of the Foundation Year I carry out a pilot project for the PhD proper.  I explored the application of responsible AI principles in a healthcare context using the MIMIC-IV dataset. The work involved a step-by-step evaluation process, beginning with dataset to identify potential biases in the dataset itself, followed by the development of various machine learning models for clinical prediction tasks. I assessed model performance and prediction outputs across different patient subgroups (e.g., Insurance, gender, ethnicity) to examine fairness, transparency, and potential disparities. This included applying different evaluation methods to detect bias and measure how consistently the models performed across groups. The goal was to understand and improve the alignment of AI systems with ethical and equitable standards in real-world clinical settings.
+At the end of my Foundation Year, I completed a pilot research project that laid the foundation for my PhD research. The project investigated the application of Responsible AI principles in healthcare using the MIMIC-IV critical care database, with the objective of understanding how fairness and trustworthiness can be evaluated throughout the entire machine learning pipeline rather than at a single stage.
+
+The project began with an assessment of the data itself to identify potential sources of bias before model development. I then developed and evaluated a range of machine learning models, including both linear and non-linear approaches, for clinical prediction tasks. Performance metrics, such as the Area Under the Receiver Operating Characteristic Curve (AUROC), were used alongside fairness metrics to assess predictive performance across patient subgroups defined by characteristics such as gender, ethnicity, and insurance status.
+
+Rather than limiting the evaluation to the model level, the project adopted a pipeline-based perspective by examining three key stages: **data**, **model**, and **prediction**. This approach enabled a more comprehensive understanding of how bias and model behaviour emerge throughout the machine learning workflow. Our findings showed that to understand why a model performs as it does, evaluation should not rely on a single metric or a single stage of the pipeline. Instead, combining multiple evaluation methods across the data, model, and prediction stages provides a more complete picture of model behaviour, helping to uncover biases and limitations that may otherwise remain hidden. This highlights the importance of holistic, pipeline-wide evaluation when developing responsible and trustworthy AI systems.
+
+To support this analysis, we used the **FAT Forensics** toolkit, an open-source Python library for fairness, accountability, and transparency in machine learning. The toolkit provides a unified interface for auditing datasets, evaluating model behaviour, and analysing prediction outcomes using a broad collection of explainability and fairness techniques. Working with this framework also highlighted the practical value of unified evaluation tools that enable consistent and reproducible responsible AI assessments across different stages of the pipeline.
+
+For readers interested in the implementation details, available metrics, and methodology, the FAT Forensics documentation provides a comprehensive overview: https://fat-forensics.org/.

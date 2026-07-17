@@ -1,8 +1,12 @@
 ---
 title: "AI-Related Projects"
+page-layout: full
+toc: false
+
 listing:
-    contents: projects
-    sort: date desc
+  contents: projects
+  type: grid
+  sort: date desc
 ---
 
 Click on one of the headers below to find out about AI-related projects I am or have been involved in. 

@@ -1,9 +1,17 @@
 ---
-title: "Automating Customer IT Support with Agentic AI and LLMs" 
+title: "Agentic AI for Enterprise IT Support" 
+
+image: ../images/agentic.png
+
+
+description: >
+  Practice-project II:
+  Developing a multi-agent LLM system with LangGraph and RAG to automate
+  enterprise IT support workflows.
 ---
 
-In this group project, we developed an AI-based system to help automate common IT support tasks, such as ticket triage, issue classification, and response generation. With enterprise IT teams facing growing workloads due to expanding infrastructure and remote work, our goal was to explore how agentic AI—powered by Large Language Models (LLMs)—could take on some of the routine support duties.
+This group project explored the use of **Agentic AI** and **Large Language Models (LLMs)** to automate common enterprise IT support tasks, including ticket triage, issue classification, and response generation. As IT support services face increasing demand due to expanding digital infrastructure and hybrid working environments, the project investigated how autonomous AI agents could assist with routine support workflows while maintaining reliable and accurate responses.
 
-We built a multi-agent framework using tools like LangGraph and retrieval-augmented generation (RAG) to simulate real-world IT support environments. Our system coordinated agents to handle tasks like diagnosing problems, classifying issues, and generating helpful responses. We also compared the performance of fine-tuned LLMs with traditional models like XGBoost.
+We developed a multi-agent system using **LangGraph**, integrating **Retrieval-Augmented Generation (RAG)** to provide context-aware responses from a knowledge base. The framework coordinated multiple specialised agents responsible for tasks such as ticket analysis, issue classification, information retrieval, and response generation, simulating a realistic IT support pipeline. We also evaluated the performance of fine-tuned LLMs and compared their effectiveness against a traditional machine learning baseline using **XGBoost**.
 
-The results showed that while LLMs performed well in structured tasks, challenges remained—especially around consistency and the limits of synthetic training data. Overall, the project highlighted the potential of AI-driven IT support systems when paired with human oversight, balancing automation with reliability.
+The project demonstrated the potential of agent-based LLM systems to support enterprise IT service management by automating repetitive tasks and improving workflow efficiency. At the same time, our evaluation highlighted important challenges, including maintaining response consistency and ensuring factual accuracy. 

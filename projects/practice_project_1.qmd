@@ -1,7 +1,18 @@
 ---
-title: "The Effect of Varying Network Size During MARL Training on Agent Performance" 
+title: "Multi-Agent Reinforcement Learning for Cyber Defence" 
+
+image: ../images/marl.jpg
+
+
+description: >
+  Practice-project I: 
+  The Effect of Varying Network Size During MARL Training on Agent Performance with applications to changing network topologies
 ---
 
 
-My first practice project was on Mutli-Agent Reinforcement Learning. In this group project, we explored how changes in network size like adding or removing devices affect the performance of AI agents trained using Multi-Agent Reinforcement Learning (MARL). As modern networks (especially those involving IoT and mobile devices) grow and shift over time, they pose challenges for training stable and scalable AI systems. Using a simulated cyber defence environment, we examined how these dynamic changes impact the agents' learning, particularly when the action space becomes more complex. Our findings highlighted key scalability issues and the need for more adaptive training approaches to help AI agents perform reliably in real-world, ever-changing networks. 
+This group project investigated the effect of varying network sizes during **Multi-Agent Reinforcement Learning (MARL)** training as part of the **TTCP CAGE Challenge** using the **CybORG** simulation environment. The study focused on dynamic network topologies, where the number of edge devices changes over time, reflecting the evolving nature of modern enterprise, IoT, and mobile networks.
+
+We trained agents using **Proximal Policy Optimisation (PPO)** and examined how changes in network size influenced learning performance. As additional edge nodes were introduced, the observation and action spaces expanded, increasing the complexity of the learning task and presenting challenges for scalability. Through experimentation, we analysed how these dynamic environments affected the agent's ability to learn effective cyber defence strategies.
+
+Our findings highlighted the difficulties of applying MARL to environments with evolving network topologies, where increasing action spaces can significantly impact training efficiency and agent performance. The project also explored potential approaches to improve scalability and adaptability.
 
