@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-10">
+<meta name="description" content="Exploring a psychometric approach to evaluating cognitive biases in large language models using factor analysis and structured prompting.">
 
-<title>A Case Study in Practice-Oriented Artificial Intelligence – Bezawit academic homepage</title>
+<title>Measuring Cognitive Bias in Large Language Models Through a Psychometric Lens – Bezawit Lake</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +22,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -99,7 +81,7 @@ div.csl-indent {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Bezawit academic homepage</span>
+    <span class="navbar-title">Bezawit Lake</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -143,7 +125,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">A Case Study in Practice-Oriented Artificial Intelligence</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Measuring Cognitive Bias in Large Language Models Through a Psychometric Lens</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -158,7 +140,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src=".././images/user_image.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src=".././images/user.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -169,8 +151,13 @@ div.csl-indent {
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
+    <i class="bi bi-geo-alt" role="img">
+</i> 
+ <span class="menu-text">Bristol, UK</span>
+  </li>
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://github.com/IntelligentSystemsLaboratory" class="sidebar-item-text sidebar-link"><i class="bi bi-github" role="img">
+  <a href="https://github.com/bezawitlake" class="sidebar-item-text sidebar-link"><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text">Github</span></a>
   </div>
@@ -184,6 +171,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="https://www.linkedin.com/in/bezawit-lake/" class="sidebar-item-text sidebar-link"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text">LinkedIn</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="https://medium.com/@bezawitl" class="sidebar-item-text sidebar-link"><i class="bi bi-medium" role="img">
 </i> 
  <span class="menu-text">Medium Blog</span></a>
@@ -191,8 +185,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://www.bristol.ac.uk/cdt/practice-oriented-ai/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pro-AI CDT</span></a>
+  <a href="https://orcid.org/0000-0002-0407-4459" class="sidebar-item-text sidebar-link"><i class="bi bi-person-badge" role="img">
+</i> 
+ <span class="menu-text">ORCID</span></a>
   </div>
 </li>
     </ul>
@@ -200,22 +195,57 @@ div.csl-indent {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#why-evaluate-cognitive-bias-in-llms" id="toc-why-evaluate-cognitive-bias-in-llms" class="nav-link" data-scroll-target="#why-evaluate-cognitive-bias-in-llms">Why Evaluate Cognitive Bias in LLMs?</a></li>
+  <li><a href="#why-average-bias-scores-may-not-be-enough" id="toc-why-average-bias-scores-may-not-be-enough" class="nav-link" data-scroll-target="#why-average-bias-scores-may-not-be-enough">Why Average Bias Scores May Not Be Enough</a></li>
+  <li><a href="#learning-from-psychometrics-measuring-hidden-constructs" id="toc-learning-from-psychometrics-measuring-hidden-constructs" class="nav-link" data-scroll-target="#learning-from-psychometrics-measuring-hidden-constructs">Learning From Psychometrics: Measuring Hidden Constructs</a></li>
+  <li><a href="#our-approach-a-psychometric-view-of-llm-bias-evaluation" id="toc-our-approach-a-psychometric-view-of-llm-bias-evaluation" class="nav-link" data-scroll-target="#our-approach-a-psychometric-view-of-llm-bias-evaluation">Our Approach: A Psychometric View of LLM Bias Evaluation</a>
+  <ul class="collapse">
+  <li><a href="#selecting-cognitive-biases" id="toc-selecting-cognitive-biases" class="nav-link" data-scroll-target="#selecting-cognitive-biases">1. Selecting Cognitive Biases</a></li>
+  <li><a href="#designing-prompt-based-measurement-items" id="toc-designing-prompt-based-measurement-items" class="nav-link" data-scroll-target="#designing-prompt-based-measurement-items">2. Designing Prompt-Based Measurement Items</a></li>
+  <li><a href="#applying-factor-analysis" id="toc-applying-factor-analysis" class="nav-link" data-scroll-target="#applying-factor-analysis">3. Applying Factor Analysis</a></li>
+  </ul></li>
+  <li><a href="#why-factor-analysis-matters-for-llm-evaluation" id="toc-why-factor-analysis-matters-for-llm-evaluation" class="nav-link" data-scroll-target="#why-factor-analysis-matters-for-llm-evaluation">Why Factor Analysis Matters for LLM Evaluation</a></li>
+  <li><a href="#implications-for-responsible-ai" id="toc-implications-for-responsible-ai" class="nav-link" data-scroll-target="#implications-for-responsible-ai">Implications for Responsible AI</a></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">A Case Study in Practice-Oriented Artificial Intelligence</h1>
-</div>
+<h1 class="title">Measuring Cognitive Bias in Large Language Models Through a Psychometric Lens</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Responsible AI</div>
+    <div class="quarto-category">Large Language Models</div>
+    <div class="quarto-category">AI Evaluation</div>
+    <div class="quarto-category">Cognitive Bias</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Exploring a psychometric approach to evaluating cognitive biases in large language models using factor analysis and structured prompting.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 10, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -225,15 +255,159 @@ div.csl-indent {
 </header>
 
 
-<p>This journal paper presents a case study in practice-oriented AI…</p>
-<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</i></p>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-casestudy" class="csl-entry" role="listitem">
-Other, A. N., and S. U. Pervisor. 2024. <span>“A Case Study in Practice-Oriented Artificial Intelligence.”</span> <em>Artificial Intelligence: Theory and Practice</em> 12 (3): 245–60. <a href="https://doi.org/10.1234/aitp.2024.0312">https://doi.org/10.1234/aitp.2024.0312</a>.
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Large Language Models (LLMs) have rapidly become powerful tools for language understanding, reasoning, and decision support. As they are increasingly adopted in domains such as healthcare, education, finance, and public services, evaluating their behaviour has become just as important as evaluating their performance.</p>
+<p>Most benchmark evaluations focus on what a model can do: answering questions, generating text, or solving reasoning tasks. While these benchmarks provide valuable insights, they reveal much less about how a model behaves when making decisions.</p>
+<p>One important challenge is understanding whether LLMs exhibit forms of cognitive bias. Since these models are trained on large-scale human-generated data, they may capture and reproduce patterns present within human knowledge, behaviour, and communication.</p>
+<p>However, evaluating cognitive bias in LLMs is challenging. Unlike traditional machine learning tasks where performance can be measured using clear metrics such as accuracy or AUROC, cognitive biases are often hidden characteristics that are not directly observable.</p>
+<p>This raises an important question:</p>
+<blockquote class="blockquote">
+<p>How can we measure cognitive biases in AI systems when the biases themselves are latent?</p>
+</blockquote>
+<p>In this work, we explored a psychometric-inspired approach to evaluating cognitive biases in LLMs, using structured prompts and factor analysis to investigate underlying patterns in model responses.</p>
+<hr>
+</section>
+<section id="why-evaluate-cognitive-bias-in-llms" class="level1">
+<h1>Why Evaluate Cognitive Bias in LLMs?</h1>
+<p>LLMs are increasingly used as assistants for reasoning, decision-making, and information generation. However, if these systems contain systematic biases, they may influence the quality and fairness of their outputs.</p>
+<p>Examples of cognitive biases that may influence decision-making include:</p>
+<ul>
+<li>Confirmation bias: favouring information that supports existing beliefs.</li>
+<li>Anchoring bias: relying too heavily on initial information.</li>
+<li>Availability bias: overestimating information that is easier to recall.</li>
+<li>Stereotyping bias: associating characteristics with groups based on learned patterns.</li>
+</ul>
+<p>In psychology, researchers rarely observe these biases directly. Instead, they design carefully constructed experiments and infer hidden psychological characteristics from patterns in participants’ responses.</p>
+<p>This perspective motivated our approach:</p>
+<blockquote class="blockquote">
+<p>Rather than asking whether an LLM produces biased responses on average, can we identify hidden dimensions of bias behaviour?</p>
+</blockquote>
+<hr>
+</section>
+<section id="why-average-bias-scores-may-not-be-enough" class="level1">
+<h1>Why Average Bias Scores May Not Be Enough</h1>
+<p>Many existing approaches evaluate LLM bias by:</p>
+<ol type="1">
+<li>Creating prompts designed to test a specific bias.</li>
+<li>Collecting model responses.</li>
+<li>Calculating an average bias score.</li>
+</ol>
+<p>For example, a model may receive multiple scenarios designed to test confirmation bias, and researchers may calculate how often the model demonstrates bias-consistent behaviour.</p>
+<p>While useful, this approach has limitations.</p>
+<p>A single average score may hide important variation in model behaviour. Two models could achieve the same overall score while demonstrating very different response patterns.</p>
+<p>Additionally, cognitive biases are complex constructs. They may not appear independently, and several observed behaviours may reflect a smaller number of underlying factors.</p>
+<p>This is where psychometric approaches provide an alternative perspective.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/llm_evalaution.png" class="img-fluid figure-img"></p>
+<figcaption>The framework we design.</figcaption>
+</figure>
 </div>
-</div>
+<hr>
+</section>
+<section id="learning-from-psychometrics-measuring-hidden-constructs" class="level1">
+<h1>Learning From Psychometrics: Measuring Hidden Constructs</h1>
+<p>Psychometrics is the field concerned with measuring psychological characteristics that cannot be directly observed.</p>
+<p>Many important human characteristics are latent:</p>
+<ul>
+<li>Intelligence.</li>
+<li>Personality traits.</li>
+<li>Cognitive abilities.</li>
+<li>Attitudes.</li>
+</ul>
+<p>One well-known example is the development of the <strong>Big Five personality model</strong>. Rather than measuring personality using a single question, psychologists analysed responses to many different questions and found that certain behaviours consistently clustered together. These clusters eventually became the five major personality dimensions.</p>
+<p>This inspired our approach:</p>
+<blockquote class="blockquote">
+<p>If human psychological traits can be studied as latent factors, could cognitive biases in LLMs also be investigated as hidden dimensions?</p>
+</blockquote>
+<hr>
+</section>
+<section id="our-approach-a-psychometric-view-of-llm-bias-evaluation" class="level1">
+<h1>Our Approach: A Psychometric View of LLM Bias Evaluation</h1>
+<p>Our evaluation framework consisted of three main stages:</p>
+<section id="selecting-cognitive-biases" class="level2">
+<h2 class="anchored" data-anchor-id="selecting-cognitive-biases">1. Selecting Cognitive Biases</h2>
+<p>We first identified cognitive biases that have established definitions within psychology.</p>
+<p>For each bias, we designed evaluation scenarios intended to measure whether an LLM exhibited behaviour associated with that bias.</p>
+<p>Examples include:</p>
+<ul>
+<li>Presenting conflicting information to examine confirmation bias.</li>
+<li>Providing initial information before a decision task to test anchoring effects.</li>
+<li>Creating availability-based scenarios to evaluate reliance on easily recalled information.</li>
+</ul>
+<hr>
+</section>
+<section id="designing-prompt-based-measurement-items" class="level2">
+<h2 class="anchored" data-anchor-id="designing-prompt-based-measurement-items">2. Designing Prompt-Based Measurement Items</h2>
+<p>Instead of using a single prompt per bias, we created multiple prompts representing different situations.</p>
+<p>Each prompt acted similarly to a questionnaire item in psychometric evaluation.</p>
+<p>The objective was not simply to measure whether one response was biased, but to examine whether consistent response patterns emerged across multiple scenarios.</p>
+<p>This is important because individual responses may be influenced by randomness or prompt wording.</p>
+<hr>
+</section>
+<section id="applying-factor-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="applying-factor-analysis">3. Applying Factor Analysis</h2>
+<p>The collected responses were analysed using factor analysis.</p>
+<p>Factor analysis is a statistical technique used to identify underlying structures within observed variables.</p>
+<p>In our context:</p>
+<p>Observed variables: - LLM responses to different bias-related prompts.</p>
+<p>Latent factors: - Underlying cognitive bias dimensions influencing those responses.</p>
+<p>The goal was to understand whether groups of evaluation items represented common underlying patterns.</p>
+<p>This provides a richer understanding than simply calculating average bias scores.</p>
+<hr>
+</section>
+</section>
+<section id="why-factor-analysis-matters-for-llm-evaluation" class="level1">
+<h1>Why Factor Analysis Matters for LLM Evaluation</h1>
+<p>Using factor analysis changes the question we ask.</p>
+<p>Instead of:</p>
+<blockquote class="blockquote">
+<p>“How biased is this model?”</p>
+</blockquote>
+<p>we ask:</p>
+<blockquote class="blockquote">
+<p>“What underlying patterns of bias-related behaviour does this model demonstrate?”</p>
+</blockquote>
+<p>This shift is important because responsible AI evaluation requires understanding model behaviour, not only ranking models based on a single score.</p>
+<p>A psychometric perspective may help identify:</p>
+<ul>
+<li>Whether biases consistently appear.</li>
+<li>Whether different biases are related.</li>
+<li>Whether models demonstrate similar behavioural patterns.</li>
+<li>Whether evaluation methods measure meaningful constructs.</li>
+</ul>
+<hr>
+</section>
+<section id="implications-for-responsible-ai" class="level1">
+<h1>Implications for Responsible AI</h1>
+<p>As LLMs become increasingly integrated into decision-support systems, evaluation methods must evolve.</p>
+<p>Traditional benchmark-based evaluation provides valuable information about capability, but responsible deployment requires deeper understanding of model behaviour.</p>
+<p>Cognitive bias evaluation presents a particular challenge because biases are not directly observable. Approaches inspired by psychology and psychometrics provide a promising direction for studying these hidden characteristics.</p>
+<p>Rather than treating bias evaluation as a simple scoring problem, we should consider methods that uncover the underlying behavioural patterns of AI systems.</p>
+<hr>
+</section>
+<section id="future-directions" class="level1">
+<h1>Future Directions</h1>
+<p>This work opens several research questions:</p>
+<ul>
+<li>Can psychometric frameworks provide reliable measures of LLM behaviour?</li>
+<li>Do different LLM architectures demonstrate different cognitive bias profiles?</li>
+<li>Can factor structures remain consistent across languages and domains?</li>
+<li>How can these evaluations support safer deployment of AI systems?</li>
+</ul>
+<p>As AI systems become more capable, understanding their behaviour will become just as important as measuring their performance.</p>
+<p>Responsible AI requires not only asking:</p>
+<blockquote class="blockquote">
+<p>“Can an AI system perform a task?”</p>
+</blockquote>
+<p>but also:</p>
+<blockquote class="blockquote">
+<p>“How does the system reason, and what hidden patterns influence its behaviour?”</p>
+</blockquote>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -328,7 +502,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/BezawitL\.github\.io\/personal_page\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

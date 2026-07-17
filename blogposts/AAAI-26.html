@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-16">
+<meta name="description" content="A reflection on presenting my Responsible AI research at AAAI 2026, exploring fairness evaluation in healthcare machine learning and my experience attending the conference in Singapore.">
 
-<title>2024 Neural Information Processing Conference – A.N. Other’s academic homepage (edit in _quarto.yml)</title>
+<title>Evalauting Responsible AI Principles – Bezawit Lake</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">A.N. Other’s academic homepage (edit in _quarto.yml)</span>
+    <span class="navbar-title">Bezawit Lake</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -123,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2024 Neural Information Processing Conference</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Evalauting Responsible AI Principles</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -138,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src=".././images/user_image.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src=".././images/user.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -149,8 +151,13 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
+    <i class="bi bi-geo-alt" role="img">
+</i> 
+ <span class="menu-text">Bristol, UK</span>
+  </li>
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://github.com/IntelligentSystemsLaboratory" class="sidebar-item-text sidebar-link"><i class="bi bi-github" role="img">
+  <a href="https://github.com/bezawitlake" class="sidebar-item-text sidebar-link"><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text">Github</span></a>
   </div>
@@ -164,14 +171,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://medium.com/@bezawitl" class="sidebar-item-text sidebar-link">
+  <a href="https://www.linkedin.com/in/bezawit-lake/" class="sidebar-item-text sidebar-link"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text">LinkedIn</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://medium.com/@bezawitl" class="sidebar-item-text sidebar-link"><i class="bi bi-medium" role="img">
+</i> 
  <span class="menu-text">Medium Blog</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://www.bristol.ac.uk/cdt/practice-oriented-ai/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pro-AI CDT</span></a>
+  <a href="https://orcid.org/0000-0002-0407-4459" class="sidebar-item-text sidebar-link"><i class="bi bi-person-badge" role="img">
+</i> 
+ <span class="menu-text">ORCID</span></a>
   </div>
 </li>
     </ul>
@@ -179,22 +195,49 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#research-motivation" id="toc-research-motivation" class="nav-link" data-scroll-target="#research-motivation">Research Motivation</a></li>
+  <li><a href="#evaluating-responsible-ai-across-the-pipeline" id="toc-evaluating-responsible-ai-across-the-pipeline" class="nav-link" data-scroll-target="#evaluating-responsible-ai-across-the-pipeline">Evaluating Responsible AI Across the Pipeline</a></li>
+  <li><a href="#what-we-learned" id="toc-what-we-learned" class="nav-link" data-scroll-target="#what-we-learned">What We Learned</a></li>
+  <li><a href="#presenting-at-aaai-2026" id="toc-presenting-at-aaai-2026" class="nav-link" data-scroll-target="#presenting-at-aaai-2026">Presenting at AAAI 2026</a></li>
+  <li><a href="#looking-forward" id="toc-looking-forward" class="nav-link" data-scroll-target="#looking-forward">Looking Forward</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">2024 Neural Information Processing Conference</h1>
-</div>
+<h1 class="title">Evalauting Responsible AI Principles</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Research Journey</div>
+    <div class="quarto-category">Responsible AI</div>
+    <div class="quarto-category">Healthcare AI</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    A reflection on presenting my Responsible AI research at AAAI 2026, exploring fairness evaluation in healthcare machine learning and my experience attending the conference in Singapore.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 16, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -204,10 +247,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I was fortunate to present my work at a NeurIPS’24 workshop.</p>
-<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</i></p>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>In January 2026, I had the opportunity to present my research at the AAAI-26 Conference on Artificial Intelligence in Singapore. My poster explored Responsible AI in healthcare, focusing on how fairness and transparency can be evalauted throughout the machine learning pipeline. Beyond presenting my work, the conference was a great opportunity to exchange ideas with researchers working across many areas of AI.</p>
+<p>The project was motivated by a simple question:</p>
+<blockquote class="blockquote">
+<p>A machine learning model may achieve strong predictive performance, but does that necessarily mean it is responsible?</p>
+</blockquote>
+<p>In healthcare, where AI systems have the potential to influence clinical decisions, predictive accuracy alone is not enough. Responsible AI also requires understanding how models learn from data, how they make predictions, and whether they behave consistently across different patient populations.</p>
+</section>
+<section id="research-motivation" class="level1">
+<h1>Research Motivation</h1>
+<p>Machine learning has demonstrated significant potential in healthcare, supporting applications such as disease diagnosis, risk prediction, and personalised treatment planning. However, clinical datasets often reflect real-world differences in healthcare access, patient demographics, and data collection practices.</p>
+<p>As a result, machine learning models may inherit biases present in the data. A model can achieve strong overall performance while still performing differently for particular patient groups. Understanding these differences is essential for building AI systems that clinicians and patients can trust.</p>
+</section>
+<section id="evaluating-responsible-ai-across-the-pipeline" class="level1">
+<h1>Evaluating Responsible AI Across the Pipeline</h1>
+<p>Many machine learning studies evaluate fairness only after a model has been trained, using predictive metrics such as AUROC alongside fairness measures. While these evaluations are valuable, they often provide limited insight into why disparities arise.</p>
+<p>In this project, we instead examined fairness across the entire machine learning pipeline:</p>
+<ol type="1">
+<li><strong>Data level</strong> : Investigating potential representation issues and biases within the dataset.</li>
+<li><strong>Model level</strong> : Evaluating predictive performance and fairness across multiple machine learning models.</li>
+<li><strong>Prediction level</strong> Analysing model outputs to identify differences in predictions across patient groups.</li>
+</ol>
+<p>Using the MIMIC-IV critical care database, we developed and evaluated both linear and non-linear machine learning models. We also used the FAT Forensics toolkit to investigate fairness, accountability, and transparency throughout the modelling workflow.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/poster_1.png" class="img-fluid figure-img" alt="Presenting my research poster at AAAI 2026"></p>
+<figcaption>My poster at AAAI 2026 in Singapore.</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-we-learned" class="level1">
+<h1>What We Learned</h1>
+<p>One of the biggest lessons from this project was that responsible AI cannot be captured by a single evaluation metric.</p>
+<p>A model’s behaviour is shaped not only by its architecture but also by the characteristics of the data it learns from and the predictions it ultimately produces. Looking at these components together provides a much more complete understanding of model behaviour than evaluating predictive performance alone.</p>
+<p>This work reinforced the value of developing evaluation frameworks that assess machine learning systems from multiple perspectives rather than relying on a single measure of performance.</p>
+</section>
+<section id="presenting-at-aaai-2026" class="level1">
+<h1>Presenting at AAAI 2026</h1>
+<p>Presenting this work at AAAI 2026 was a valuable experience. The discussions during the poster session introduced me to new perspectives on fairness evaluation, trustworthy AI, and the practical challenges of deploying machine learning in healthcare.</p>
+<p>One of the most rewarding aspects of attending the conference was seeing how rapidly the Responsible AI community is evolving. Researchers from machine learning, healthcare, ethics, and policy are increasingly working together to develop AI systems that are not only accurate but also fair, transparent, and reliable.</p>
+</section>
+<section id="looking-forward" class="level1">
+<h1>Looking Forward</h1>
+<p>This project has strengthened my interest in trustworthy and Responsible AI research. Going forward, I hope to continue developing methods for evaluating and improving AI systems throughout their lifecycle, particularly in high-impact domains such as healthcare.</p>
+<p>Responsible AI is not only about building accurate models, it is about building systems that can be understood, evaluated, and trusted.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -302,7 +390,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/BezawitL\.github\.io\/personal_page\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
